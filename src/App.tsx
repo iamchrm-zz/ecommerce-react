@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="chat-notification">
+      <div className="chat-notification-logo-wrapper">
+        <img
+          className="chat-notification-logo"
+          src={logo}
+          alt="ChitChat Logo"
+        />
+      </div>
+      <div className="chat-notification-content">
+        <h4 className="chat-notification-title">ChitChat</h4>
+        <p className="chat-notification-message">You have a new message!</p>
+      </div>
     </div>
   );
 }
