@@ -1,9 +1,9 @@
 function Sidebar() {
-  return <div>
+  return <>
       <h1>
-          Hola soy cri y me gusta el pene a demas soy el sidebar
+          Hola soy cri y  soy el sidebar y me ofendo rapido gg wp y amo al jean y al roke
       </h1>
-  </div>;
+  </>;
 }
 
 export default Sidebar;
